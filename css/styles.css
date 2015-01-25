@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+h1 {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height:150px;
+	font-family: 'Slabo 27px', serif;
+}
+
+#header {
+	background:url(../images/Austin.jpg);
+	width: 900px;
+	height: 150px;
+	margin: 0 auto;
+	color: white;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#sidebar {
+	background-color: #ff9900;
+	width: 200px;
+	height: 400px;
+	float:left;
+}
+
+#main-content {
+	background-color: #FFF5F0;
+	width: 700px;
+	height: 400px;
+	float:right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color:lime;
+}
+
+#footer {
+	background-color: #FFB84D;
+	width: 880px;
+	margin: 0 auto;
+	clear: both;
+	padding: 10px;
+	text-align: center;
+}
